@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
+    <title>Henrik's Portfolio Page (Tech Stack)</title>
+</head>
+
+<body>
+    <header>
+        <nav class="flex__nav">
+            <aside class="flex__logo">
+                <p class="gradient__text gradient-logo paragraph__size--logo"><span class="logo__font">{007}</span><br>henriksuurik</p>
+            </aside>
+            <input id="input__checkbox" type="checkbox">
+            <nav class="flex--menu paragraph__size--default-bold">
+                <ul class="menu__list menu__list--buttons">
+                    <li><a href="./../index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a class="text-shadow-active" href="./tech-stack.html">Tech Stack</a></li>
+                    <li><a href="./projects.html">Projects</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+                <ul class="menu__list menu__list--icons">
+                    <li><a href="https://github.com/" target="_blank"><img class="icon__size--menu"
+                                src="./../svg/GitHubHeader.svg" alt="./../svg/GitHubHeader.svg"></a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank"><img class="icon__size--menu"
+                                src="./../svg/LinkedInHeader.svg" alt="./../svg/LinkedInHeader.svg"></a></li>
+                    <li><a href="https://x.com/home" target="_blank"><img class="icon__size--menu"
+                                src="./../svg/TwitterHeader.svg" alt="./../svg/TwitterHeader.svg"></a></li>
+                </ul>
+            </nav>
+            <label class="label__size--hamburger label__cursor--hamburger image__color--invert" for="input__checkbox">
+                <img class="icon__display--hamburger icon__size--hamburger icon__position--hamburger"
+                    src="./../svg/hamburger-menu.svg" alt="hamburger-menu.svg">
+            </label>
+        </nav>
+    </header>
+    <main>
+        <!-- Tech Stack Section -->
+        <section>
+            <h2 class="heading__margin--vertical heading__size--default">My Tech Stack</h2>
+            <p class="paragraph__size--default">Technologies I've been working with recently</p>
+            <div class="flex-row-wrap flex-row-wrap__gap--tech-stack flex-row-wrap__margin--tech-stack">
+                <figure><img class="image__size--tech-stack" src="./../svg/HTML5.svg" alt="./../svg/HTML5.svg"></figure>
+                <figure><img class="image__size--tech-stack" src="./../svg/CSS3.svg" alt="./../svg/CSS3.svg"></figure>
+                <figure><img class="image__size--tech-stack" src="./../svg/JavaScript.svg" alt="./../svg/JavaScript.svg"></figure>
+                <figure><img class="image__size--tech-stack" src="./../svg/React.svg" alt="./../svg/React.svg"></figure>
+                <figure><img class="image__size--tech-stack" src="./../svg/Redux.svg" alt="./../svg/Redux.svg"></figure>
+                <figure><img class="image__size--tech-stack" src="./../svg/Bootstrap.svg" alt="./../svg/Bootstrap.svg"></figure>
+                <figure><img class="image__size--tech-stack" src="./../svg/TailwindCSS.svg" alt="./../svg/TailwindCSS.svg"></figure>
+                <figure><img class="image__size--tech-stack" src="./../svg/Sass.svg" alt="./../svg/Sass.svg"></figure>
+                <figure><img class="block__display--tablet-desktop image__size--tech-stack" src="./../svg/Git.svg" alt="./../svg/Git.svg"></figure>
+                <picture class="block__display--tablet-desktop">
+                    <source srcset="./../svg/Greensock.svg" media="(prefers-color-scheme: light)">
+                    <source srcset="./../svg/Greensock-dark.svg" media="(prefers-color-scheme: dark)">
+                    <img class="image__size--tech-stack" src="./../svg/Greensock.svg" alt="./../svg/Greensock.svg">
+                </picture>
+                <figure><img class="block__display--tablet-desktop image__size--tech-stack" src="./../svg/VSCode.svg"
+                    alt="./../svg/VSCode.svg"></figure>
+                <picture class="block__display--tablet-desktop">
+                    <source srcset="./../svg/GitHub.svg" media="(prefers-color-scheme: light)">
+                    <source srcset="./../svg/GitHub-dark.svg" media="(prefers-color-scheme: dark)">
+                    <img class="image__size--tech-stack" src="./../svg/GitHub.svg" alt="./../svg/GitHub.svg">
+                </picture>
+            </div>
+            <h2 class="heading__size--default block__display--mobile">Tools</h2>
+            <div
+                class="flex__display--mobile flex-row-wrap flex-row-wrap__gap--tech-stack flex-row-wrap__margin--tech-stack">
+                <figure><img class="block__display--mobile image__size--tech-stack" src="./../svg/VSCode.svg"
+                    alt="./../svg/VSCode.svg"></figure>
+                <figure><img class="block__display--mobile image__size--tech-stack" src="./../svg/Git.svg" alt="./../svg/Git.svg"></figure>
+                <picture class="block__display--mobile">
+                    <source srcset="./../svg/GitHub.svg" media="(prefers-color-scheme: light)">
+                    <source srcset="./../svg/GitHub-dark.svg" media="(prefers-color-scheme: dark)">
+                    <img class="image__size--tech-stack" src="./../svg/GitHub.svg" alt="./../svg/GitHub.svg">
+                </picture>
+                <figure><img class="block__display--mobile image__size--tech-stack" src="./../svg/Figma.svg" alt="./../svg/Figma.svg"></figure>
+                <figure><img class="block__display--mobile image__size--tech-stack" src="./../svg/NPM.svg" alt="./../svg/NPM.svg"></figure>
+                <figure><img class="block__display--mobile image__size--tech-stack" src="./../svg/Postman.svg"
+                    alt="./../svg/Postman.svg"></figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <p class="paragraph__size--default-small">Designed and built by <span
+                    class="gradient__text gradient-name">Henrik Suurik</span> with <span
+                    class="gradient__text gradient-love">Love</span> & <span
+                    class="gradient__text gradient-coffee">Coffee</span></p>
+        </div>
+    </footer>
+</body>
+
+</html>

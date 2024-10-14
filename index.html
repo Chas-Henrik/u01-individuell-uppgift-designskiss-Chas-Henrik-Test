@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
+    <title>Henrik's Portfolio Page (Home)</title>
+</head>
+
+<body>
+    <header>
+        <nav class="flex__nav">
+            <aside class="flex__logo">
+                <p class="gradient__text gradient-logo paragraph__size--logo"><span class="logo__font">{007}</span><br>henriksuurik</p>
+            </aside>
+            <input id="input__checkbox" type="checkbox">
+            <nav class="flex--menu paragraph__size--default-bold">
+                <ul class="menu__list menu__list--buttons">
+                    <li><a class="text-shadow-active" href="./index.html">Home</a></li>
+                    <li><a href="./html/about.html">About</a></li>
+                    <li><a href="./html/tech-stack.html">Tech Stack</a></li>
+                    <li><a href="./html/projects.html">Projects</a></li>
+                    <li><a href="./html/contact.html">Contact</a></li>
+                </ul>
+                <ul class="menu__list menu__list--icons">
+                    <li><a href="https://github.com/" target="_blank"><img class="icon__size--menu"
+                                src="./svg/GitHubHeader.svg" alt="./svg/GitHubHeader.svg"></a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank"><img class="icon__size--menu"
+                                src="./svg/LinkedInHeader.svg" alt="./svg/LinkedInHeader.svg"></a></li>
+                    <li><a href="https://x.com/home" target="_blank"><img class="icon__size--menu"
+                                src="./svg/TwitterHeader.svg" alt="./svg/TwitterHeader.svg"></a></li>
+                </ul>
+            </nav>
+            <label class="label__size--hamburger label__cursor--hamburger image__color--invert" for="input__checkbox">
+                <img class="icon__display--hamburger icon__size--hamburger icon__position--hamburger"
+                    src="./svg/hamburger-menu.svg" alt="hamburger-menu.svg">
+            </label>
+        </nav>
+    </header>
+    <main>
+        <!-- Introduction (Home) -->
+        <section class="flex-row-wrap flex-row-wrap__gap--introduction">
+            <h2 class="heading--title heading__size--title">Hi👋,<br>
+                My name is<br>
+                <span class="gradient__text gradient-name">Henrik Suurik</span><br>
+                I build things for web
+            </h2>
+            <figure
+                class="flex-container flex-container__border-radius--circle flex-container__size--medium gradient-border">
+                <img class="image--profile" src="./img/Henrik.jpg" alt="./img/Henrik.jpg">
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <p class="paragraph__size--default-small">Designed and built by <span
+                    class="gradient__text gradient-name">Henrik Suurik</span> with <span
+                    class="gradient__text gradient-love">Love</span> & <span
+                    class="gradient__text gradient-coffee">Coffee</span></p>
+        </div>
+    </footer>
+</body>
+
+</html>

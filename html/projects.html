@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
+    <title>Henrik's Portfolio Page (Projects)</title>
+</head>
+
+<body>
+    <header>
+        <nav class="flex__nav">
+            <aside class="flex__logo">
+                <p class="gradient__text gradient-logo paragraph__size--logo"><span class="logo__font">{007}</span><br>henriksuurik</p>
+            </aside>
+            <input id="input__checkbox" type="checkbox">
+            <nav class="flex--menu paragraph__size--default-bold">
+                <ul class="menu__list menu__list--buttons">
+                    <li><a href="./../index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./tech-stack.html">Tech Stack</a></li>
+                    <li><a class="text-shadow-active" href="./projects.html">Projects</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+                <ul class="menu__list menu__list--icons">
+                    <li><a href="https://github.com/" target="_blank"><img class="icon__size--menu"
+                                src="./../svg/GitHubHeader.svg" alt="./../svg/GitHubHeader.svg"></a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank"><img class="icon__size--menu"
+                                src="./../svg/LinkedInHeader.svg" alt="./../svg/LinkedInHeader.svg"></a></li>
+                    <li><a href="https://x.com/home" target="_blank"><img class="icon__size--menu"
+                                src="./../svg/TwitterHeader.svg" alt="./../svg/TwitterHeader.svg"></a></li>
+                </ul>
+            </nav>
+            <label class="label__size--hamburger label__cursor--hamburger image__color--invert" for="input__checkbox">
+                <img class="icon__display--hamburger icon__size--hamburger icon__position--hamburger"
+                    src="./../svg/hamburger-menu.svg" alt="hamburger-menu.svg">
+            </label>
+        </nav>
+    </header>
+    <main>
+        <!-- Projects Section -->
+        <section>
+            <h2 class="heading__margin--vertical heading__size--default">Projects</h2>
+            <p class="paragraph__size--default">Things I've built so far</p>
+            <div class="flex-row-wrap flex-row-wrap__gap--project-card flex-row-wrap__margin--project-card">
+                <article class="card">
+                    <figure class="card__figure"><img class="card__image" src="./../img/Project1.png" alt="./../img/Project1.png"></figure>
+                    <h2 class="card__title heading__size--card-title">Project Tile goes here</h2>
+                    <p class="card__description paragraph__size--card-description">This is a sample project description
+                        random things are here in description This is a sample project lorem ipsum generator for dummy
+                        content</p>
+                    <p class="card__footnote paragraph__size--card-footnote">Tech Stack : <span
+                            class="paragraph__size--footnote-span">HTML, JavaScript, SASS, React</span></p>
+                    <footer class="card__footer">
+                        <nav>
+                            <a class="paragraph__size--footer-link" href="#" target="_blank">
+                                <picture>
+                                    <source srcset="./../svg/ChainCard.svg" media="(prefers-color-scheme: light)">
+                                    <source srcset="./../svg/ChainCard-dark.svg" media="(prefers-color-scheme: dark)">
+                                    <img class="footer__img--card" src="./../svg/ChainCard.svg"
+                                        alt="./../svg/ChainCard.svg">
+                                </picture>
+                                Live Preview
+                            </a>
+                        </nav>
+                        <nav>
+                            <a class="paragraph__size--footer-link" href="https://github.com/"
+                                target="_blank">
+                                <picture>
+                                    <source srcset="./../svg/GitHubCard.svg" media="(prefers-color-scheme: light)">
+                                    <source srcset="./../svg/GitHubCard-dark.svg" media="(prefers-color-scheme: dark)">
+                                    <img class="footer__img--card" src="./../svg/GitHubCard.svg"
+                                        alt="./../svg/GitHubCard.svg">
+                                </picture>
+                                View Code
+                            </a>
+                        </nav>
+                    </footer>
+                </article>
+                <article class="card">
+                    <figure class="card__figure"><img class="card__image" src="./../img/Project2.png" alt="./../img/Project2.png"></figure>
+                    <h2 class="card__title heading__size--card-title">Project Tile goes here</h2>
+                    <p class="card__description paragraph__size--card-description">This is a sample project description
+                        random things are here in description This is a sample project lorem ipsum generator for dummy
+                        content</p>
+                    <p class="card__footnote paragraph__size--card-footnote">Tech Stack : <span
+                            class="paragraph__size--footnote-span">HTML, JavaScript, SASS, React</span></p>
+                    <footer class="card__footer">
+                        <nav>
+                            <a class="paragraph__size--footer-link" href="#" target="_blank">
+                                <picture>
+                                    <source srcset="./../svg/ChainCard.svg" media="(prefers-color-scheme: light)">
+                                    <source srcset="./../svg/ChainCard-dark.svg" media="(prefers-color-scheme: dark)">
+                                    <img class="footer__img--card" src="./../svg/ChainCard.svg"
+                                        alt="./../svg/ChainCard.svg">
+                                </picture>
+                                Live Preview
+                            </a>
+                        </nav>
+                        <nav>
+                            <a class="paragraph__size--footer-link" href="https://github.com/"
+                                target="_blank">
+                                <picture>
+                                    <source srcset="./../svg/GitHubCard.svg" media="(prefers-color-scheme: light)">
+                                    <source srcset="./../svg/GitHubCard-dark.svg" media="(prefers-color-scheme: dark)">
+                                    <img class="footer__img--card" src="./../svg/GitHubCard.svg"
+                                        alt="./../svg/GitHubCard.svg">
+                                </picture>
+                                View Code
+                            </a>
+                        </nav>
+                    </footer>
+                </article>
+                <article class="card">
+                    <figure class="card__figure"><img class="card__image" src="./../img/Project3.png" alt="./../img/Project3.png"></figure>
+                    <h2 class="card__title heading__size--card-title">Project Tile goes here</h2>
+                    <p class="card__description paragraph__size--card-description">This is a sample project description
+                        random things are here in description This is a sample project lorem ipsum generator for dummy
+                        content</p>
+                    <p class="card__footnote paragraph__size--card-footnote">Tech Stack : <span
+                            class="paragraph__size--footnote-span">HTML, JavaScript, SASS, React</span></p>
+                    <footer class="card__footer">
+                        <nav>
+                            <a class="paragraph__size--footer-link" href="#" target="_blank">
+                                <picture>
+                                    <source srcset="./../svg/ChainCard.svg" media="(prefers-color-scheme: light)">
+                                    <source srcset="./../svg/ChainCard-dark.svg" media="(prefers-color-scheme: dark)">
+                                    <img class="footer__img--card" src="./../svg/ChainCard.svg"
+                                        alt="./../svg/ChainCard.svg">
+                                </picture>
+                                Live Preview
+                            </a>
+                        </nav>
+                        <nav>
+                            <a class="paragraph__size--footer-link" href="https://github.com/"
+                                target="_blank">
+                                <picture>
+                                    <source srcset="./../svg/GitHubCard.svg" media="(prefers-color-scheme: light)">
+                                    <source srcset="./../svg/GitHubCard-dark.svg" media="(prefers-color-scheme: dark)">
+                                    <img class="footer__img--card" src="./../svg/GitHubCard.svg"
+                                        alt="./../svg/GitHubCard.svg">
+                                </picture>
+                                View Code
+                            </a>
+                        </nav>
+                    </footer>
+                </article>
+                <article class="card">
+                    <figure class="card__figure"><img class="card__image" src="./../img/Project4.png" alt="./../img/Project4.png"></figure>
+                    <h2 class="card__title heading__size--card-title">Project Tile goes here</h2>
+                    <p class="card__description paragraph__size--card-description">This is a sample project description
+                        random things are here in description This is a sample project lorem ipsum generator for dummy
+                        content</p>
+                    <p class="card__footnote paragraph__size--card-footnote">Tech Stack : <span
+                            class="paragraph__size--footnote-span">HTML, JavaScript, SASS, React</span></p>
+                    <footer class="card__footer">
+                        <nav>
+                            <a class="paragraph__size--footer-link" href="#" target="_blank">
+                                <picture>
+                                    <source srcset="./../svg/ChainCard.svg" media="(prefers-color-scheme: light)">
+                                    <source srcset="./../svg/ChainCard-dark.svg" media="(prefers-color-scheme: dark)">
+                                    <img class="footer__img--card" src="./../svg/ChainCard.svg"
+                                        alt="./../svg/ChainCard.svg">
+                                </picture>
+                                Live Preview
+                            </a>
+                        </nav>
+                        <nav>
+                            <a class="paragraph__size--footer-link" href="https://github.com/"
+                                target="_blank">
+                                <picture>
+                                    <source srcset="./../svg/GitHubCard.svg" media="(prefers-color-scheme: light)">
+                                    <source srcset="./../svg/GitHubCard-dark.svg" media="(prefers-color-scheme: dark)">
+                                    <img class="footer__img--card" src="./../svg/GitHubCard.svg"
+                                        alt="./../svg/GitHubCard.svg">
+                                </picture>
+                                View Code
+                            </a>
+                        </nav>
+                    </footer>
+                </article>
+                <article class="card">
+                    <figure class="card__figure"><img class="card__image" src="./../img/Project5.png" alt="./../img/Project5.png"></figure>
+                    <h2 class="card__title heading__size--card-title">Project Tile goes here</h2>
+                    <p class="card__description paragraph__size--card-description">This is a sample project description
+                        random things are here in description This is a sample project lorem ipsum generator for dummy
+                        content</p>
+                    <p class="card__footnote paragraph__size--card-footnote">Tech Stack : <span
+                            class="paragraph__size--footnote-span">HTML, JavaScript, SASS, React</span></p>
+                    <footer class="card__footer">
+                        <nav>
+                            <a class="paragraph__size--footer-link" href="#" target="_blank">
+                                <picture>
+                                    <source srcset="./../svg/ChainCard.svg" media="(prefers-color-scheme: light)">
+                                    <source srcset="./../svg/ChainCard-dark.svg" media="(prefers-color-scheme: dark)">
+                                    <img class="footer__img--card" src="./../svg/ChainCard.svg"
+                                        alt="./../svg/ChainCard.svg">
+                                </picture>
+                                Live Preview
+                            </a>
+                        </nav>
+                        <nav>
+                            <a class="paragraph__size--footer-link" href="https://github.com/"
+                                target="_blank">
+                                <picture>
+                                    <source srcset="./../svg/GitHubCard.svg" media="(prefers-color-scheme: light)">
+                                    <source srcset="./../svg/GitHubCard-dark.svg" media="(prefers-color-scheme: dark)">
+                                    <img class="footer__img--card" src="./../svg/GitHubCard.svg"
+                                        alt="./../svg/GitHubCard.svg">
+                                </picture>
+                                View Code
+                            </a>
+                        </nav>
+                    </footer>
+                </article>
+                <article class="card">
+                    <figure class="card__figure"><img class="card__image" src="./../img/Project6.png" alt="./../img/Project6.png"></figure>
+                    <h2 class="card__title heading__size--card-title">Project Tile goes here</h2>
+                    <p class="card__description paragraph__size--card-description">This is a sample project description
+                        random things are here in description This is a sample project lorem ipsum generator for dummy
+                        content</p>
+                    <p class="card__footnote paragraph__size--card-footnote">Tech Stack : <span
+                            class="paragraph__size--footnote-span">HTML, JavaScript, SASS, React</span></p>
+                    <footer class="card__footer">
+                        <nav>
+                            <a class="paragraph__size--footer-link" href="#" target="_blank">
+                                <picture>
+                                    <source srcset="./../svg/ChainCard.svg" media="(prefers-color-scheme: light)">
+                                    <source srcset="./../svg/ChainCard-dark.svg" media="(prefers-color-scheme: dark)">
+                                    <img class="footer__img--card" src="./../svg/ChainCard.svg"
+                                        alt="./../svg/ChainCard.svg">
+                                </picture>
+                                Live Preview
+                            </a>
+                        </nav>
+                        <nav>
+                            <a class="paragraph__size--footer-link" href="https://github.com/"
+                                target="_blank">
+                                <picture>
+                                    <source srcset="./../svg/GitHubCard.svg" media="(prefers-color-scheme: light)">
+                                    <source srcset="./../svg/GitHubCard-dark.svg" media="(prefers-color-scheme: dark)">
+                                    <img class="footer__img--card" src="./../svg/GitHubCard.svg"
+                                        alt="./../svg/GitHubCard.svg">
+                                </picture>
+                                View Code
+                            </a>
+                        </nav>
+                    </footer>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <p class="paragraph__size--default-small">Designed and built by <span
+                    class="gradient__text gradient-name">Henrik Suurik</span> with <span
+                    class="gradient__text gradient-love">Love</span> & <span
+                    class="gradient__text gradient-coffee">Coffee</span></p>
+        </div>
+    </footer>
+</body>
+
+</html>
