@@ -492,7 +492,7 @@ section {
     flex: fit-content;
     padding: 2.5rem;
     padding-bottom: 2rem;
-    text-align: left;
+    text-align: center;
     text-wrap: nowrap;
 }
 
@@ -650,10 +650,6 @@ section {
         height: 56.7rem;
         min-width: 37.3rem;
         min-height: 56.7rem;
-    }
-
-    .card__title {
-        text-align: center;
     }
 
     .card__description {
