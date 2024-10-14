@@ -46,7 +46,7 @@ Exempel på semantiska element är:
 CSS står för Cascading Style Sheet och är ett stilmalls-språk som beskriver utseendet & styling på en websida. Cascading betyder att när flera stilregler kan tillämpas på ett element, så finns det en specifik ordning och prioritering som avgör vilken stil som ska gälla.
 
 CSS används för att förändra färg, form, typsnitt, layout, animation m.m. på en web sida.
-CSS filen länkas in från HTML sidan med <link> elementet (t.ex. <link rel="stylesheet" href="./css/style.css">) och är valfri, medan HTML filen är ett krav och måste finnas på alla web platser.
+CSS filen länkas in från HTML sidan med `<link>` elementet (t.ex. `<link rel="stylesheet" href="./css/style.css">`) och är valfri, medan HTML filen är ett krav och måste finnas på alla web platser.
 
 ### Vad menas med responsiv design samt med vilka metoder man kan utveckla responsiva sidor?
 
